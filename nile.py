@@ -8,7 +8,7 @@ except ImportError:
 file = open('data_without_hobbies.yaml', 'r')
 
 # prepare output file
-output_file = open(r'data_without_hobbies_output.yaml', 'w')
+output_file = open('data_with_hobbies.yaml', 'w')
 
 # read and parse the yaml data
 data = load(file.read(), Loader=Loader)
