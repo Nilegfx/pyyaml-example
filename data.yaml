@@ -3,3 +3,8 @@ age: 35
 friends:
   - mahmoud
   - mohamed
+parent:
+  child:
+    names:
+    - ahmed
+    - Tito
